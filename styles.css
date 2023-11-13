@@ -87,6 +87,7 @@ h1 span{
     font-family: Inter;
     font-size: 16px;
     font-weight: 500;
+    cursor: pointer;
 }
 
 section {
@@ -94,6 +95,7 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
+    /* width: 80%; */
 }
 
 .section-header {
@@ -128,4 +130,124 @@ section h2 {
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
+}
+
+.section-content {
+    margin-top: 48px;
+    margin-left: 13%;
+    margin-right: 13%;
+    display: flex;
+}
+
+#section-content-hor {
+    gap: 20px;
+}
+
+#section-content-ver {
+    flex-direction: column;
+    gap: 40px;
+}
+
+
+.card {
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 6px 2px 25px -9px rgba(0, 0, 0, 0.10);
+}
+
+.card-title {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.card-text {
+    color: #55206D;
+    margin-top: 8px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+}
+
+.project {
+    display: flex;
+    gap: 20px;
+}
+
+.project-rec {
+    border-radius: 10px;
+    padding: 44px 46px;
+    display: inline-block;
+}
+
+.project-rec-txt {
+    text-align: center;
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+#project1 {
+    background-color: #19ACFF;
+    color: white;
+}
+
+#project2 {
+    background-color: #FFE819;
+    color: black;
+}
+
+#project3 {
+    background-color: #FF1919;
+    color: white;
+}
+
+.project-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2px 0;
+    /* gap: 8px; */
+}
+
+.project-main-title {
+    color: #291854;    
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.project-main-text {
+    color: #55206D;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+}
+
+.project-main-link {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    color: #6A87A3;    
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+footer {
+    margin-top: 127px;
+    padding: 20px;
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 500;
 }
