@@ -1,10 +1,17 @@
 * {
     padding: 0;
     margin: 0;
+    font-size: 16px;
 }
 
 body {
     background: #FFF8F0;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
 
 .contact {
@@ -55,6 +62,7 @@ header {
 }
 
 h1 {
+    position: relative;
     margin-top: 10px;
     color: #190D37;
     font-family: League Spartan;
@@ -64,7 +72,14 @@ h1 {
 }
 
 h1 span{
+    font-size: 48px;
     font-weight: 400;
+}
+
+#line {
+    position: absolute;
+    z-index: -1;
+    margin-top: -20px;
 }
 
 #header-par {
@@ -136,6 +151,7 @@ section h2 {
     margin-left: 13%;
     margin-right: 13%;
     display: flex;
+    position: relative;
 }
 
 #section-content-hor {
@@ -157,6 +173,7 @@ section h2 {
 }
 
 .card {
+    position: relative;
     padding: 20px;
     background-color: white;
     border-radius: 10px;
@@ -368,4 +385,61 @@ footer {
 
 .invis {
     display: none;
+}
+
+#red_blob {
+    position: absolute;
+    z-index: -1;
+    margin-top: 80px;
+    margin-left: -112px;
+}
+
+#blue_blob {
+    position: absolute;
+    z-index: -1;
+    margin-top: -120px;
+    margin-left: -30px;
+}
+
+#blue_blur {
+    width: 300px;
+    height: 300px;
+    right: 0;
+    /* margin-right: -300px; */
+    transform: translateX(120%);
+    flex-shrink: 0;
+    border-radius: 300px;
+    background: #64DAFF;
+    filter: blur(250px);
+    position: absolute;
+    z-index: -1;
+    margin-top: -120px;
+}
+
+#orange_blur {
+    width: 300px;
+    height: 300px;
+    left: 0;
+    flex-shrink: 0;
+    border-radius: 300px;
+    background: #FFB800;
+    filter: blur(250px);
+    position: absolute;
+    z-index: -1;
+    transform: translateX(-120%);
+    margin-top: -40px;
+}
+
+#purple_blur {
+    width: 300px;
+    height: 300px;
+    /* left: 0; */
+    flex-shrink: 0;
+    border-radius: 300px;
+    background: #DC93FF;
+    filter: blur(125px);
+    position: absolute;
+    z-index: -1;
+    transform: translateX(30%);
+    /* margin-top: 60px; */
 }

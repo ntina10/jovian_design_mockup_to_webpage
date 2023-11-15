@@ -28,8 +28,10 @@
         <p id="hello-text">Hi, I’m Ferdi Sahin</p>
 
         <h1>
-          Freelance Front-end Developer <span>and</span> Wordpress Developer
+          Freelance Front-end Developer <span>and</span><br />
+          Wordpress Developer
         </h1>
+        <img id="line" src="line.svg" alt="yellow decorative line" />
 
         <p id="header-par">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
@@ -38,10 +40,12 @@
           non.
         </p>
 
-        <div class="button">Contact Me</div>
+        <button class="button">Contact Me</button>
       </div>
 
       <div id="header-image">
+        <!-- <div id="purple_blur"></div> -->
+        <img id="purple_blur" src="purple_blur.svg" alt="purple blur" />
         <img src="Image.png" alt="Photo of Ferdi Sahin" />
       </div>
     </header>
@@ -68,6 +72,7 @@
             nisi aliquam metus, vitae porta ligula enim in nisl.
           </p>
         </div>
+        <img id="red_blob" src="red_blob.svg" alt="red decorative blob" />
         <div class="card job">
           <h3 class="card-title">Back-end Development</h3>
           <p class="card-text">
@@ -79,6 +84,8 @@
           </p>
         </div>
         <div class="card job">
+          <img id="blue_blob" src="blue_blob.svg" alt="blue decorative blob" />
+
           <h3 class="card-title">Interface Development</h3>
           <p class="card-text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
@@ -102,6 +109,7 @@
           non.
         </p>
       </div>
+
       <div class="section-content" id="section-content-ver">
         <div class="project">
           <div class="project-rec" id="project1">
@@ -118,8 +126,10 @@
               erat semper, scelerisque tortor id, pretium tellus.
             </p>
             <div class="project-main-link">
-              <span>Project Link</span>
-              <img src="arrow.svg" alt="arrow for link" />
+              <a href="">
+                <span>Project Link</span>
+                <img src="arrow.svg" alt="arrow for link" />
+              </a>
             </div>
           </div>
         </div>
@@ -138,12 +148,16 @@
               erat semper, scelerisque tortor id, pretium tellus.
             </p>
             <div class="project-main-link">
-              <span>Project Link</span>
-              <img src="arrow.svg" alt="arrow for link" />
+              <a href="">
+                <span>Project Link</span>
+                <img src="arrow.svg" alt="arrow for link" />
+              </a>
             </div>
           </div>
         </div>
         <div class="project">
+          <div id="orange_blur"></div>
+
           <div class="project-rec" id="project3">
             <p class="project-rec-txt">PN</p>
           </div>
@@ -158,8 +172,10 @@
               erat semper, scelerisque tortor id, pretium tellus.
             </p>
             <div class="project-main-link">
-              <span>Project Link</span>
-              <img src="arrow.svg" alt="arrow for link" />
+              <a href="">
+                <span>Project Link</span>
+                <img src="arrow.svg" alt="arrow for link" />
+              </a>
             </div>
           </div>
         </div>
@@ -262,6 +278,8 @@
             <img src="check.svg" alt="check icon" />
             <p>Lorem ipsum dolor sit amet</p>
           </div>
+          <div id="blue_blur"></div>
+
           <div class="button-price">Contact Me</div>
         </div>
       </div>
@@ -284,9 +302,9 @@
             <div class="drop-title">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </div>
-            <img src="down.svg" alt="down arrow icon" />
+            <img id="arrow1" src="up.svg" alt="down arrow icon" />
           </div>
-          <div class="drop-text">
+          <div class="drop-text invis" id="txt1">
             Vivamus turpis ligula, pellentesque a elit in, convallis laoreet
             metus. Sed aliquet lacinia dictum. In pharetra nunc nisi, ac aliquet
             est pretium non. Fusce fringilla, sem sit amet egestas sagittis,
@@ -299,9 +317,9 @@
               Vivamus turpis ligula, pellentesque a elit in, convallis laoreet
               metus.
             </p>
-            <img src="up.svg" alt="down arrow icon" />
+            <img id="arrow2" src="up.svg" alt="down arrow icon" />
           </div>
-          <p class="drop-text">
+          <p class="drop-text invis" id="txt2">
             Vivamus turpis ligula, pellentesque a elit in, convallis laoreet
             metus. Sed aliquet lacinia dictum. In pharetra nunc nisi, ac aliquet
             est pretium non. Fusce fringilla, sem sit amet egestas sagittis,
@@ -311,9 +329,9 @@
         <div class="dropdown">
           <div class="dropdown-header">
             <p class="drop-title">Vestibulum a dui id mi fermentum pretium.</p>
-            <img src="down.svg" alt="down arrow icon" />
+            <img id="arrow3" src="up.svg" alt="down arrow icon" />
           </div>
-          <p class="drop-text">
+          <p class="drop-text invis" id="txt3">
             Vivamus turpis ligula, pellentesque a elit in, convallis laoreet
             metus. Sed aliquet lacinia dictum. In pharetra nunc nisi, ac aliquet
             est pretium non. Fusce fringilla, sem sit amet egestas sagittis,
@@ -323,7 +341,7 @@
         <div class="dropdown">
           <div class="dropdown-header">
             <p class="drop-title">Donec molestie nec purus sed ultricies.</p>
-            <img src="up.svg" alt="toggle arrow icon" />
+            <img id="arrow4" src="up.svg" alt="toggle arrow icon" />
           </div>
           <p class="drop-text invis" id="txt4">
             Vivamus turpis ligula, pellentesque a elit in, convallis laoreet
@@ -338,5 +356,6 @@
     <footer>
       <p>Ferdi Sahin © 2022. All Rights Reserved.</p>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
